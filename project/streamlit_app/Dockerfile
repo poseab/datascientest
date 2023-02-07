@@ -1,4 +1,5 @@
-FROM python:3-slim
+FROM tensorflow/tensorflow:2.9.2-gpu
+
 
 WORKDIR /app
 
