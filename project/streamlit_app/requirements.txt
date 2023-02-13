@@ -13,3 +13,4 @@ torch==1.12.0
 torchvision==0.13.0
 tf2onnx==1.12.1
 transformers==4.25.1
+protobuf==3.19.1
