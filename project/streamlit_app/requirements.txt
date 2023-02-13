@@ -14,3 +14,4 @@ torchvision==0.13.0
 tf2onnx==1.12.1
 transformers==4.25.1
 protobuf==3.19.1
+tensorflow-addons==0.18.0
