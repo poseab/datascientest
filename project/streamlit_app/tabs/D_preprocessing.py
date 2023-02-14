@@ -29,7 +29,10 @@ def run():
     st.markdown("""Chaque image de notre data frame va être analysée et le texte correspondant va être sauvegardé
     dans une nouvelle colonne.""")
   
-    row = df.sample()
+    #row = df.sample()
+    good = ['img_0000088.jpg']
+    df_id = df[df['filename'].isin(good)]
+    row = df_id.sample()
 
     if st.button("Exemple"):
         doctype = row['type'].values[0]
@@ -55,7 +58,7 @@ def run():
     """)
 
     if st.button(label="Exemple de traduction"):
-      row = df.sample()
+      #row = df.sample()
       st.markdown("###  " + row['type'].values[0])
       st.image('../data/final/' + row['filename'].values[0])
 

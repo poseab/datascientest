@@ -6,7 +6,7 @@ import streamlit as st
 import config
 
 # TODO : you can (and should) rename and add tabs in the ./tabs folder, and import them here.
-from tabs import A_intro, B_database, C_dataviz, D_preprocessing,H_computer_vision,E_bert, K_extraction
+from tabs import A_intro, B_database, C_dataviz, D_preprocessing, E_machine_learning, F_bert, H_computer_vision,K_extraction, L_conclusion
 
 
 st.set_page_config(
@@ -29,11 +29,11 @@ TABS = OrderedDict(
         (B_database.sidebar_name, B_database),
         (C_dataviz.sidebar_name, C_dataviz),
         (D_preprocessing.sidebar_name, D_preprocessing),
-		(E_bert.sidebar_name, E_bert),
- 		(H_computer_vision.sidebar_name, H_computer_vision),
-        (E_bert.sidebar_name, E_bert),
+        (E_machine_learning.sidebar_name, E_machine_learning),
+        (F_bert.sidebar_name, F_bert),
         (H_computer_vision.sidebar_name, H_computer_vision),
-        (K_extraction.sidebar_name, K_extraction)
+        (K_extraction.sidebar_name, K_extraction),
+        (L_conclusion.sidebar_name, L_conclusion)
     ]
 )
 
