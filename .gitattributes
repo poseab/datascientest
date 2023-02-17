@@ -1,3 +1,3 @@
-/project/model/ResNet50_target_min/** filter=lfs diff=lfs merge=lfs -text
+/project/model/ResNet50_target_min/ResNet50.* filter=lfs diff=lfs merge=lfs -text
 /project/model/RF/** filter=lfs diff=lfs merge=lfs -text
 /project/model/bert_nlp_target_min/*.bin filter=lfs diff=lfs merge=lfs -text
